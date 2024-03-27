@@ -1,0 +1,119 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Oswald", sans-serif;
+}
+
+.container {
+   height: 100vh;
+   width: 100%;
+   background: linear-gradient(110deg, #FFFFFF 50%, #088F8F 50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header {
+   height: 65vh;
+   width: 30%;
+   background-color: #002147;
+   /* display: flex;
+   flex-direction: column; */
+   border-radius: 2rem;
+
+}
+
+.box-1 {
+   height: 8vh;
+   width: 100%;
+   color: yellow;
+   background-color: orange;
+}
+
+.box-2 {
+   height: 48vh;
+   width: 100%;
+   color: #ff007f;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   /* background-color: orangered; */
+
+}
+
+.box-a {
+   background-color: violet;
+   height: 10vh;
+   width: 50%;
+   
+
+}
+
+.box-b {
+   /* background-color: green; */
+   height: 10vh;
+   width: 50%;
+}
+
+.box-c {
+   /* background-color: yellow; */
+   height: 10vh;
+   width: 50%;
+}
+
+.box-d {
+   /* background-color: orange; */
+   height: 10vh;
+   width: 50%;
+}
+
+input {
+   width: 100%;
+   background-color: transparent;
+   color: #00FF7F;
+   border: none;
+   border-bottom: 2px solid orangered;
+   outline: none;
+}
+
+
+::placeholder {
+   color: white;
+}
+
+.box-3 {
+   height: 9vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: orange;
+}
+
+button {
+   width: 20%;
+   height: 2rem;
+   color: black;
+   background-color: orange;
+   border-radius: 2rem;
+   border: none;
+   color: brown;
+   font-weight: bold;
+}
+
+button:hover {
+   background-color: #40B5AD;
+   color: #4c0ae4;
+}
+
+h3 {
+
+   text-align: center;
+   
+}
+p{
+   color: orange;
+   font-size: 12px;
+}
